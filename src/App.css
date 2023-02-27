@@ -1,5 +1,13 @@
 .App {
+  
   text-align: center;
+  margin: 30px 150px 30px 150px;
+  background-color: rgba(255, 255, 255, 0.192);
+  height: 500px;
+  width: 500px;
+  border-radius: 15px;
+  box-shadow: 8px 6px 7px  rgb(58, 52, 51);
+  
 }
 
 .App-logo {
@@ -35,4 +43,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-number{
+  padding: 10px 0 10px;
+  font-size: 40px;
+}
+.App-input{
+  margin: 10px 0 10px;
+  text-align: center;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 25px;
+}
+.App-button{
+  margin: 10px 0 10px;
+  padding: 10px 0 10px;
+  font-size: 20px;
+  color: rgba(17, 17, 17, 0.767);
+  background-color: rgba(238, 238, 143, 0.301);
+  border-radius: 12px;
+  width: 125px;
+  height: 50px;
+}
+.App-button:hover{
+  background-color: rgba(255, 255, 255, 0.527);
+  border-radius: 20px;
+  color: black;
+}
+.App-results{
+  color: rgba(0, 141, 0, 0.959);
+  font-size: 50px;
+  font-weight: 800;
 }
